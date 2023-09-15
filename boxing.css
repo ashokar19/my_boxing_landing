@@ -3,36 +3,50 @@ html {
     scroll-behavior: smooth;
 }
 
-.fixed-menu {
-    /* for specified height*/
-    background-color: lightskyblue;
-    top: 0;
-    width: 100%;
-    align-items:center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar{
+    background-color: lightslategray;
+    color:aliceblue;
+    display:flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
-/*every button inside bar selected using a- its every a tag inside the bar*/
-.fixed-menu a{
-    float: left;
-    display:block;
-    text-align: center;
+.logo {
+    padding-left: 20px;
+    height: 50px;
+}
+
+
+.nav-list{
+    list-style-type: none;
+
+}
+
+.nav-list li{
+    /*can make an ordered list of blocks into adjacent blocks*/
+    display:inline-block;
+    /* padding: top/bottom left/right*/
+    padding: 20px 20px;
+}
+
+/*to edit the text, dont edit the li, edit the <a> associated!!*/
+
+.nav-list a{
     text-decoration: none;
-    padding: 14px;
-    font: 17px;
+    color:aliceblue
 }
 
-.fixed-menu a:hover{
-    /*use background instead of background-color*/
-    background:skyblue;
+.nav-list a:hover{
+    color:lightskyblue;
+    transition: all .5s ease;
 }
 
-.fixed-menu .split-image{
-    float: right;
-    border-radius: 50%;
-}
 
-.fixed-menu .split-image:hover{
-    border-radius: 50%;
-    transition: all 2s;
-}
