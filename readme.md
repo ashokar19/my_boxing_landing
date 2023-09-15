@@ -1,1 +1,1 @@
-read me for the logic
+Simple boxing website designed by Arjun Singh-Shokar
