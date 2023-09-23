@@ -19,37 +19,8 @@ body {
     width: 100%;
 }
 
-.container-row{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;   
-}
-
-.row li{
-    /*can make an ordered list of blocks into adjacent blocks*/
-    display:inline-block;
-    /* padding: top/bottom left/right*/
-    padding: 20px 20px;
-}
-
-/*to edit the text, dont edit the li, edit the <a> associated!!*/
-.row a{
-    text-decoration-line: none;
-    color:black;
-    padding-right: 40px;
-}
 
 
-.row a:hover{
-    color:grey;
-    transition: all .5s ease;
-}
 
 
-.title{
-    display:flex;
-    text-decoration: none;
-    color: black;
-    padding-left: 20px;
-}
 
