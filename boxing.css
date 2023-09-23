@@ -1,35 +1,31 @@
-/*can just do html*/
-html {
-    scroll-behavior: smooth;
-    height:100%;
+/*https://developers.google.com/fonts/docs/getting_started*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;1,9..40,1000&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
 }
 
-*{
-    padding: 0;
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
     margin: 0;
+    background-color: whitesmoke;
+    text-decoration: none;
 }
 
-.navbar{
-    background-color: lightslategray;
-    color:aliceblue;
+.top-bar{
+    background-color: brown;
+    height: 10px;
+    width: 100%;
+}
+
+.container-row{
     display:flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 
-.logo {
-    padding-left: 20px;
-    height: 50px;
-}
-
-
-.nav-list{
-    list-style-type: none;
-
-}
-
-.nav-list li{
+.row li{
     /*can make an ordered list of blocks into adjacent blocks*/
     display:inline-block;
     /* padding: top/bottom left/right*/
@@ -37,36 +33,23 @@ html {
 }
 
 /*to edit the text, dont edit the li, edit the <a> associated!!*/
-
-.nav-list a{
-    text-decoration: none;
-    color:aliceblue
+.row a{
+    text-decoration-line: none;
+    color:black;
+    padding-right: 40px;
 }
 
-.nav-list a:hover{
-    color:lightskyblue;
+
+.row a:hover{
+    color:grey;
     transition: all .5s ease;
 }
 
-/*body*/
-
-.content{
-    font-size:1.5rem;
-    padding:1rem;
-    background-color:#333;
-    color:white;
-    display:flex;
-}
 
 .title{
-    font-size:4rem;
-    color:white;
-    text-shadow: 0px 0px 5px #333;
+    display:flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
 }
 
-.background{
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 150vh;
-    width:100vw;
-}
