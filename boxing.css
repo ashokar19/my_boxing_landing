@@ -1,23 +1,22 @@
 /*https://developers.google.com/fonts/docs/getting_started*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;1,9..40,1000&display=swap');
 
-*, *::before, *::after{
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    margin: 0;
-    background-color: whitesmoke;
-    text-decoration: none;
+html {
+    background-color: grey;
+    scroll-behavior: smooth;
+  }
+
+.navbar {
+    
 }
 
-.top-bar{
-    background-color: brown;
-    height: 10px;
-    width: 100%;
-}
 
 
 
