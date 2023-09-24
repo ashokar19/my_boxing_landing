@@ -202,6 +202,54 @@ so this position is absolute within the box*/
 
 
 
+/*hero 2*/
+.hero-2 {
+    display:flex;
+    background-image: url("resources/c.jpg");
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.god-of-thunder {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 450px;
+    /*if the margin doesn't move it, try doing absolute, then if that doesn
+    work, try putting position:relative in the parent object*/
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.god-of-war {
+    color: white;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 750px;
+    /*if the margin doesn't move it, try doing absolute, then if that doesn
+    work, try putting position:relative in the parent object*/
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.god-of-ye {
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 1050px;
+    /*if the margin doesn't move it, try doing absolute, then if that doesn
+    work, try putting position:relative in the parent object*/
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
+
+
+
 
 
 
