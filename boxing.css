@@ -1,5 +1,6 @@
 /*https://developers.google.com/fonts/docs/getting_started*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;1,9..40,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;1,9..40,1000&family=Fjalla+One&family=Koulen&family=Nanum+Gothic:wght@400;800&display=swap');
 
 *,
 *::after,
@@ -11,7 +12,6 @@
 html {
     background-color: white;
     scroll-behavior: smooth;
-    
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 
 /*any text decoration is only done on the <a> tags containing content*/
 .main-links a {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     text-decoration: none;
     color:white;
 }
@@ -59,16 +59,23 @@ body {
     transition: all 0.2s ease;
 }
 
-.background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
 
 .logo img{
     border-radius: 50%;
-    height: 60px;
+    height: 70px;
+    margin:0;
+}
+
+.topTeam {
+    display: flex;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: brown;
+    font-family: 'Koulen', cursive;
+    font-weight: 100;
+    font-size: 1.8vw;
 }
 
 /*USE VW IT SHRINKS WITH WEBPAGE
@@ -81,9 +88,24 @@ body {
 }
 */
 
-.hero {
+/*hero*/
+.imgcontainer {
+  background-image: url("resources/gym.jpg");
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.innercontainer {
+    color: white;
     text-align: center;
-    
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 150px;
+}
+
+.innercontainer h1{
+    font-size: 6vw;
 }
 
 
