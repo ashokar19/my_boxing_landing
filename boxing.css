@@ -149,6 +149,7 @@ so this position is absolute within the box*/
     position: absolute; 
     top: 50px; 
     right: 0px; 
+    color:white
 }
 
 .testimonial-box p{
@@ -165,15 +166,22 @@ so this position is absolute within the box*/
     font-size: 2vw;
 }
 
+.testimonial-box h5{
+    font-size: 1vw;
+
+}
 
 
 .testimonial-box img{
     display:flex;
     box-sizing: border-box;
     height: 500px;
+    width: 30%;
+    max-height: 100%;
     padding: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
+
 }
 
 .testimonial-box ul{
@@ -182,7 +190,7 @@ so this position is absolute within the box*/
     float: right;
     position: absolute;
     margin-right: 30px;
-    top: 250px; 
+    top: 450px; 
     right: 0px;
 }
 
