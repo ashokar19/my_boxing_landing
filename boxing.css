@@ -28,6 +28,8 @@ body {
     position: fixed;
     background-color: rgba(0, 0, 128, 0.7); /* Navy blue with 70% opacity */
     padding: 10px; 
+    /*the inner container went above the navbar/header, so we add a zaxis to the text!*/
+    z-index: 1;
 }
 
 .main-links{
@@ -41,7 +43,7 @@ body {
 .main-links li {
     display: inline-block;
     position: relative;
-    margin: 20px
+    margin: 20px;
 }
 
 /*any text decoration is only done on the <a> tags containing content*/
@@ -94,18 +96,69 @@ body {
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
+  /*adds parallax scrolling*/
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .innercontainer {
     color: white;
-    text-align: center;
+    text-align: left;
     position: absolute;
     margin-top: 450px;
     margin-left: 150px;
+    box-sizing: border-box;
 }
 
 .innercontainer h1{
-    font-size: 6vw;
+    font-size: 5vw;
+
+}
+
+.innercontainer h3{
+    font-size: 2vw;
+
+}
+
+.innercontainer p{
+    font-size: 1vw;
+
+}
+
+
+/*after original hero*/
+/*just use borders instead of actually putting a box inside the box...*/
+.testimonial-box{
+    background: navy;
+    border: 20px solid brown;
+    margin:70px;
+    box-shadow: 100px black;
+    height:450px;
+}
+
+.testimonial-box .testimonial-text{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.testimonial-box img{
+    box-sizing: border-box;
+    height: 180px;
+    margin-top: 50px;
+}
+
+.testimonial-box ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.testimonial-box li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
 }
 
 
