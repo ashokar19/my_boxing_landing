@@ -29,7 +29,7 @@ body {
     background-color: rgba(0, 0, 128, 0.7); /* Navy blue with 70% opacity */
     padding: 10px; 
     /*the inner container went above the navbar/header, so we add a zaxis to the text!*/
-    z-index: 1;
+    z-index: 2;
 }
 
 .main-links{
@@ -127,38 +127,55 @@ body {
 
 
 /*after original hero*/
-/*just use borders instead of actually putting a box inside the box...*/
+/*just use borders instead of actually putting a box inside the box...
+do position:relative so everything moves relative to this, not the webpage*/
 .testimonial-box{
     background: navy;
-    border: 20px solid brown;
+    border: 40px solid brown;
+    padding: 30px 30px;
     margin:70px;
     box-shadow: 100px black;
     height:450px;
+    position: relative;
 }
 
+/*if you do position: relative, it means everything moves relative to the box
+so this position is absolute within the box*/
 .testimonial-box .testimonial-text{
     box-sizing: border-box;
     text-align: right;
     margin-right: 50px;
     margin-top: 10px;
+    position: absolute; 
+    top: 50px; 
+    right: 0px; 
 }
 
+
 .testimonial-box img{
+    display:flex;
     box-sizing: border-box;
-    height: 180px;
-    margin-top: 50px;
+    height: 500px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
 .testimonial-box ul{
+    display:flex;
     list-style-type: none;
     float: right;
+    position: absolute;
     margin-right: 30px;
+    top: 200px; 
+    right: 0px;
 }
 
 .testimonial-box li {
     display: inline-block;
     padding: 20px;
     color: white;
+
 }
 
 
