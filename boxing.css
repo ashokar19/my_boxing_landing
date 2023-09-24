@@ -151,6 +151,21 @@ so this position is absolute within the box*/
     right: 0px; 
 }
 
+.testimonial-box p{
+    padding:0%;
+    font-size: 1vw;
+}
+
+.testimonial-box h1{
+    font-size: 5vw;
+
+}
+
+.testimonial-box h3{
+    font-size: 2vw;
+}
+
+
 
 .testimonial-box img{
     display:flex;
@@ -167,7 +182,7 @@ so this position is absolute within the box*/
     float: right;
     position: absolute;
     margin-right: 30px;
-    top: 200px; 
+    top: 250px; 
     right: 0px;
 }
 
@@ -175,8 +190,8 @@ so this position is absolute within the box*/
     display: inline-block;
     padding: 20px;
     color: white;
-
 }
+
 
 
 
