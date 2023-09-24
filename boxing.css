@@ -211,6 +211,7 @@ so this position is absolute within the box*/
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    box-sizing: border-box;
 }
 
 .god-of-thunder {
@@ -247,9 +248,59 @@ so this position is absolute within the box*/
 }
 
 
+/*tell them to sign up*/
+.call-action {
+    background: navy;
+    border: 40px solid navy;
+    border-radius: 25px;
+    padding: 30px 30px;
+    margin:80px;
+    height:120px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.call-action .sign-up{
+    background: brown;
+    border-radius: 25px;
+    padding: 1px 10px;
+    height:30px;
+    margin-left: 10px;
+    overflow:hidden; 
+    color: white;
+}
+
+.call-action p{
+    font-size: 0.8vw;
+}
+
+.call-action h1{
+    font-size: 2vw;
+}
+
+.call-action h3{
+    font-size: 1vw;
+}
 
 
 
+/*footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: navy; 
+    padding: 10px; 
+}
+
+footer p{
+     text-align: center;
+     font-size: 0.7vw;
+     height: 100px;
+     margin-left: 800px;
+     margin-left: 800px;
+}
 
 
 
