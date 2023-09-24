@@ -9,13 +9,83 @@
 }
 
 html {
-    background-color: grey;
+    background-color: white;
     scroll-behavior: smooth;
-  }
-
-.navbar {
     
 }
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-items: center;
+    /*put space inbetween for justifycontent to split up anything in a way you want it and put it in the main navbar!!!*/
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgba(0, 0, 128, 0.7); /* Navy blue with 70% opacity */
+    padding: 10px; 
+}
+
+.main-links{
+    float: right;
+}
+
+.main-links ul {
+    list-style: none;
+}
+
+.main-links li {
+    display: inline-block;
+    position: relative;
+    margin: 20px
+}
+
+/*any text decoration is only done on the <a> tags containing content*/
+.main-links a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color:white;
+}
+
+.main-links a:hover {
+    background-color: brown;
+    padding:10px 10px;
+    cursor: pointer;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+/*USE VW IT SHRINKS WITH WEBPAGE
+.title {
+    color:black;
+    text-decoration: none;
+    font-size: 6vw;
+    float:left;
+    display:flex;
+}
+*/
+
+.hero {
+    text-align: center;
+    
+}
+
 
 
 
